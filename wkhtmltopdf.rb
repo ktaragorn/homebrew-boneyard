@@ -3,7 +3,7 @@ require 'formula'
 class Wkhtmltopdf < Formula
   homepage 'http://wkhtmltopdf.org'
   url 'https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.2.4.tar.gz'
-  sha1 'dbb0166e9ce191e787e909601e4cdbae71069f29693362edf5cd7d4d44447288'
+  sha256 'dbb0166e9ce191e787e909601e4cdbae71069f29693362edf5cd7d4d44447288'
   version '0.12.2.4'
 
   depends_on 'qt'
