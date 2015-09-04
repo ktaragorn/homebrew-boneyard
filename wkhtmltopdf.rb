@@ -1,10 +1,10 @@
 require 'formula'
 
 class Wkhtmltopdf < Formula
-  homepage 'http://code.google.com/p/wkhtmltopdf/'
-  url 'https://wkhtmltopdf.googlecode.com/files/wkhtmltopdf-0.11.0_rc1.tar.bz2'
-  sha1 'db03922d281856e503b3d562614e3936285728c7'
-  version '0.11.0_rc1'
+  homepage 'http://wkhtmltopdf.org'
+  url 'https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.2.4.tar.gz'
+  sha1 'dbb0166e9ce191e787e909601e4cdbae71069f29693362edf5cd7d4d44447288'
+  version '0.12.2.4'
 
   depends_on 'qt'
 
